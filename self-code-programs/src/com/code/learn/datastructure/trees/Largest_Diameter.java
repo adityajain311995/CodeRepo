@@ -1,4 +1,4 @@
-package com.code.datastructure.trees;
+package com.code.learn.datastructure.trees;
 
 public class Largest_Diameter {
 

@@ -1,6 +1,6 @@
 package com.code.dailycoding;
 
-import com.code.datastructure.trees.Tree_Node;
+import com.code.learn.datastructure.trees.Tree_Node;
 
 /**
  * This problem was asked by Google.

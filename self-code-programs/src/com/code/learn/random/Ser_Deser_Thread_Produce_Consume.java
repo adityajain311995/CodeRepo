@@ -1,4 +1,4 @@
-package com.code.randomprograms;
+package com.code.learn.random;
 
 import java.io.File;
 import java.io.FileInputStream;

@@ -1,4 +1,4 @@
-package com.code.randomprograms;
+package com.code.learn.random;
 
 import java.math.RoundingMode;
 import java.text.DecimalFormat;

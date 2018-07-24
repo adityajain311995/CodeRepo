@@ -1,4 +1,4 @@
-package com.code.randomprograms;
+package com.code.learn.random;
 
 public class PassByValue_or_Reference {
 
