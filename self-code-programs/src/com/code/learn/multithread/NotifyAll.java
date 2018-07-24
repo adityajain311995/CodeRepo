@@ -1,16 +1,16 @@
-package com.code.learn.random;
+package com.code.learn.multithread;
 
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Thread_notifyAll extends Object {
+public class NotifyAll extends Object {
 
-	private List synchedList;
+	private List<String> synchedList;
 
-	public Thread_notifyAll() {
+	public NotifyAll() {
 		// create a new synchronized list to be used
-		synchedList = Collections.synchronizedList(new LinkedList());
+		synchedList = Collections.synchronizedList(new LinkedList<String>());
 	}
 
 	// method used to remove an element from the list
@@ -45,7 +45,7 @@ public class Thread_notifyAll extends Object {
 	}
 
 	public static void main(String[] args) {
-		final Thread_notifyAll demo = new Thread_notifyAll();
+		final NotifyAll demo = new NotifyAll();
 
 		Runnable runA = new Runnable() {
 

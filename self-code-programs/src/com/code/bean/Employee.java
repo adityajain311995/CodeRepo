@@ -1,4 +1,4 @@
-package com.code.collection.bean;
+package com.code.bean;
 
 public class Employee {
 

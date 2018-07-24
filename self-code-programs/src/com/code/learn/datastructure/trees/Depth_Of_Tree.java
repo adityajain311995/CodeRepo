@@ -1,6 +1,6 @@
 package com.code.learn.datastructure.trees;
 
-import com.code.collection.bean.Company;
+import com.code.bean.Company;
 
 public class Depth_Of_Tree {
 

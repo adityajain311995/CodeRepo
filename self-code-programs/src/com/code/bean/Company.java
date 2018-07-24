@@ -1,4 +1,4 @@
-package com.code.collection.bean;
+package com.code.bean;
 
 import java.io.Serializable;
 

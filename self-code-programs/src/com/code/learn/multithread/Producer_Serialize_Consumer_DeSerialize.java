@@ -1,4 +1,4 @@
-package com.code.learn.random;
+package com.code.learn.multithread;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -10,12 +10,12 @@ import java.io.ObjectOutputStream;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
-import com.code.collection.bean.Company;
-import com.code.collection.bean.Employee;
+import com.code.bean.Company;
+import com.code.bean.Employee;
 
-public class Ser_Deser_Thread_Produce_Consume {
+public class Producer_Serialize_Consumer_DeSerialize {
 	
-	String path  = "D:\\GitLab\\Self\\self-code-programs\\resources\\Serial_DeSerial.txt";
+	String path  = System.getProperty("user.dir")+"\\resources\\Serial_DeSerial.txt";
 	public boolean isFileSet = false;
 	public void serialize(Employee emp) {
 		File file = null;
@@ -61,7 +61,7 @@ public class Ser_Deser_Thread_Produce_Consume {
 	}
 
 	public static void main(String[] args) throws Exception {
-		Ser_Deser_Thread_Produce_Consume sd = new Ser_Deser_Thread_Produce_Consume();
+		Producer_Serialize_Consumer_DeSerialize sd = new Producer_Serialize_Consumer_DeSerialize();
 		Thread writerThread = new Thread(new Runnable() {
 			@Override
 			public void run() {
