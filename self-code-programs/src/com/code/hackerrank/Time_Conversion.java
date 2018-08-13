@@ -3,7 +3,7 @@ package com.code.hackerrank;
 public class Time_Conversion {
 
 	public static void main(String[] args) {
-		System.out.println(timeConversion("12:00:00AM"));
+		System.out.println(timeConversion("02:15:30PM"));
 	}
 
     static String timeConversion(String time) {
