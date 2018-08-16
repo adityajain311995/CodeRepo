@@ -32,8 +32,6 @@ public class Encoding_Decoding {
 		while(index<word.length()){
 			decoded = decoded + getExpandedChars();
 		}
-		
-		
 		return decoded;
 	}
 	
