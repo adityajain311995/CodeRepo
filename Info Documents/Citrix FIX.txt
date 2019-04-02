@@ -1,0 +1,7 @@
+
+1. Start->Run->regedit
+2. Edit->Find the following text
+9B123F490B54521479D0EDD389BCACC1
+3. Right click and delete every occurance of this register
+4. Click F3 to continue search and delete all other occurance in windows registery
+5. Re-install citrix receiver

@@ -1,0 +1,104 @@
+======= CDM Upgrade =====
+XMLA ----> Worksapace--> XMLAdaptor -->libraries.gradle-->cdmVersion="9.49.2"
+
+Create Workspace
+Client Service -- Accurev --> UltraESB_Project --> ClientConfigService_DEV--> libraries.gradle --> cdmVersion="9.49.2"
+
+Create Worksapce
+Data Service -- Accurev --> CommercePlatform_Webapps --> DataServices_SOA_DEV -->build.gradle-->cdmVersion="9.49.2"
+Update Data Set -- ASK to Kailash/Sid
+================================ CDM Upgrade to DataSync ==================================
+Open DataSync Workspace
+
+datasync --> pom.xml --> Update Verison to next number 10.0.21 at two place in this case
+============================================================================================
+	<parent>
+		<groupId>com.kuoni</groupId> 
+		<artifactId>datasync-modules</artifactId>
+		<version>10.0.20</version>
+	</parent>
+				====AND====
+<dependencies>
+		<dependency>
+			<groupId>com.kuoni</groupId>
+			<artifactId>datasync-common</artifactId>
+			<version>10.0.20</version>
+		</dependency>	
+		
+datasync-common --> pom.xml->Update Verison to next number 10.0.21
+============================================================================================
+	<parent>
+		<groupId>com.kuoni</groupId>
+		<artifactId>datasync-modules</artifactId>
+		<version>10.0.20</version>
+	</parent>
+	
+
+datasync-modules --> pom.xml->Update Verison to next number 10.0.21
+============================================================================================	
+<artifactId>datasync-modules</artifactId>
+	<version>10.0.20</version>
+	<packaging>pom</packaging>
+	<url>http://www.gta-travel.com</url>
+	<description>SOA Data Sync services and modules</description>
+	
+Update cdm.version to given one	i.e. <cdm.version>10.54.0</cdm.version>
+--------------------------------------------------------------------------------------------
+	<properties>
+		<junit.version>4.11</junit.version>
+		<spring.version>3.2.4.RELEASE</spring.version>
+		<sonar.language>java</sonar.language>
+		<sonar.host.url>http://longscm01c:9000/sonar</sonar.host.url>
+		<sonar.version>2.2</sonar.version>
+		<ultraesb.version>2.3.2</ultraesb.version>
+		<ultraesb.logging.version>1.0.0</ultraesb.logging.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<spring.batch.version>2.2.6.RELEASE</spring.batch.version>
+		<cdm.version>10.54.0</cdm.version>
+	</properties>	
+	
+
+======= DataGrid/Endeca Update with given version if exist in the files ===========================================
+To Update Coherence Data-grid, Coherance
+		
+		Edit libraries.gradle (datagridVersion="10.1.16")
+
+XMLA ---- Worksapace--> XMLAdaptor/XMLcommon/PriceService/hotelService-->libraries.gradle-->datagridVersion="..."
+XMLA ---- Worksapace--> XMLAdaptor/XMLcommon/PriceService/hotelService-->libraries.gradle-->endecaVersion = "..."
+
+
+TO for DataSync also
+======================
+	/datasync-modules/pom.xml --- > <datagrid.version>10.1.13</datagrid.version> to updated version
+	datasync-common/src/main/resources/datasync-common/app.properties
+			---- cdm.schemaversion=0.59.8 (respective version)
+===================================================================================================================
+
+Promote files upto IST then build in jenkins 
+Jenkins Job for
+
+R9.1:
+DataService:
+http://longscm01h:9090/jenkins/view/R9.1/job/R9.1_Build_Deploy_SOADataServices_IST/
+
+ClientConfigService:
+http://longscm01g:9090/jenkins/view/SOA_R9.1/job/Accurev_ClientConfig_IST_R9.1/
+
+R10 :
+DataService: 
+http://longscm01h:9090/jenkins/view/R10/job/R10_Build_Deploy_SOADataServices_IST/
+
+ClientConfigService:
+http://longscm01g:9090/jenkins/view/SOA_R10/job/Accurev_ClientConfig_IST_R10/
+
+
+
+
+==============================
+Hi All,
+
+CDM version has been upgraded from 9.49.2 to 9.49.3 in DataSync for Release 9.1
+
+The latest version of DataSync is published at following nexus location:-
+http://longscm01e:8081/nexus/content/groups/public/com/kuoni/datasync-common/9.1.6/

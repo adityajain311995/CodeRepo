@@ -1,0 +1,4 @@
+https://citrix.kuoni.com/Citrix/WebVDI/auth/silentDetection.aspx
+
+900070
+Kuoni@12345!
