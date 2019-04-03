@@ -5,11 +5,9 @@ import java.util.ArrayList;
 public class Tester {
 
 	public static void main(String[] args) {
-    	
-		
-		
-		
-		System.out.println(new ArrayList<String>().get(0));
+    	String group = "http://sdsd.ewesf";
+    	group = group.substring(group.indexOf("//")+2);
+    	System.out.println(group);
 	}
 
 }

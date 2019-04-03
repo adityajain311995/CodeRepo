@@ -3,7 +3,7 @@ package com.code.hackerrank.regex;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
-public class IP_Address_Validation {
+public class P1_IP_Address_Validation {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
