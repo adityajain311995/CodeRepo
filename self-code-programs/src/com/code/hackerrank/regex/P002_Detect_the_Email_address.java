@@ -13,7 +13,7 @@ import java.util.regex.Pattern;
  * @author adijain4
  *
  */
-public class P2_Detect_the_Email_address {
+public class P002_Detect_the_Email_address {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

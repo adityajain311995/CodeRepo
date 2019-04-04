@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
  * @author adijain4
  *
  */
-public class P4_Find_HackerRank {
+public class P004_Find_HackerRank {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

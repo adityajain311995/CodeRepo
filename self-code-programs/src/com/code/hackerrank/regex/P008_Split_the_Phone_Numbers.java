@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class P8_Split_the_Phone_Numbers {
+public class P008_Split_the_Phone_Numbers {
 	
 	public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

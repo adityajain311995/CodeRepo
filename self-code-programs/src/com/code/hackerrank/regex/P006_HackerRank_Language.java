@@ -3,7 +3,7 @@ package com.code.hackerrank.regex;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
-public class P6_HackerRank_Language {
+public class P006_HackerRank_Language {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

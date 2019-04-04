@@ -12,7 +12,7 @@ import java.util.regex.Pattern;
  * @author adijain4
  *
  */
-public class P3_Detect_Domain_Name {
+public class P003_Detect_Domain_Name {
 
 	public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

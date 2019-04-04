@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
  * @author adijain4
  *
  */
-public class P5_Saying_Hi {
+public class P005_Saying_Hi {
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

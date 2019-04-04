@@ -5,7 +5,7 @@ import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class P7_Building_a_Smart_IDE {
+public class P007_Building_a_Smart_IDE {
 
 	public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
