@@ -1,0 +1,1 @@
+1. Difference Array (helpful in reduction fo storage data)
