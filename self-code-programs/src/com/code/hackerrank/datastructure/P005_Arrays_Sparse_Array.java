@@ -33,7 +33,7 @@ public class P005_Arrays_Sparse_Array {
 			}
 		}
 		
-		return null;
+		return result;
 	}
 
 	private static final Scanner scanner = new Scanner(System.in);

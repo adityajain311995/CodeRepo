@@ -29,7 +29,6 @@ public class P006_Arrays_Array_Manipulation {
     			max = sum;
     		}
     	}
-    	
     	return max;
     }
 
