@@ -1,4 +1,4 @@
-package com.code.hackerrank.datastructure;
+package com.code.hackerrank.datastructure.array;
 
 public class DynamicArray<T> {
 

@@ -1,4 +1,4 @@
-package com.code.hackerrank.datastructure;
+package com.code.hackerrank.datastructure.array;
 
 import java.util.Scanner;
 
@@ -8,7 +8,7 @@ import java.util.Scanner;
  * @author adijain4
  *
  */
-public class P003_Arrays_Left_Rotation {
+public class P003_Left_Rotation {
 	private static final Scanner scanner = new Scanner(System.in);
 
 	public static void main(String[] args) {

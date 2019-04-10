@@ -1,11 +1,11 @@
-package com.code.hackerrank.datastructure;
+package com.code.hackerrank.datastructure.array;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class P001_Arrays_Print_Reverse {
+public class P001_Print_Reverse {
 
 	// Complete the reverseArray function below.
     static int[] reverseArray(int[] a) {

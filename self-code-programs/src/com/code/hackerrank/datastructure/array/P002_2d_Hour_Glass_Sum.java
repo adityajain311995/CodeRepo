@@ -1,11 +1,11 @@
-package com.code.hackerrank.datastructure;
+package com.code.hackerrank.datastructure.array;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class P002_Arrays_2d_Hour_Glass_Sum {
+public class P002_2d_Hour_Glass_Sum {
 
     // Complete the hourglassSum function below.
     static int hourglassSum(int[][] arr) {

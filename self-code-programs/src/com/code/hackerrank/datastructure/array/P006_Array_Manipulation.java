@@ -1,11 +1,11 @@
-package com.code.hackerrank.datastructure;
+package com.code.hackerrank.datastructure.array;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class P006_Arrays_Array_Manipulation {
+public class P006_Array_Manipulation {
 
     static long arrayManipulation(int n, int[][] queries) {
     	long[] arr = new long[n];

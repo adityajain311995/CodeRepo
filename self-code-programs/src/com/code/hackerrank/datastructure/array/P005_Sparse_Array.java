@@ -1,4 +1,4 @@
-package com.code.hackerrank.datastructure;
+package com.code.hackerrank.datastructure.array;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -13,7 +13,7 @@ import java.util.Scanner;
  * @author adijain4
  *
  */
-public class P005_Arrays_Sparse_Array {
+public class P005_Sparse_Array {
 	// Complete the matchingStrings function below.
 	static int[] matchingStrings(String[] strings, String[] queries) {
 		Map<String, Integer> map = new HashMap<>();

@@ -25,7 +25,7 @@ public class P022_Reverse_doubly_linked_list {
 			return head;
 		}
 		
-		DoublyLinkedListNode reverse = reverse(head.next);
+		DoublyLinkedListNode reverse = reverseList(head.next);
 		
 		reverse.next = head;
 		head.prev = reverse;

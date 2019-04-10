@@ -1,4 +1,4 @@
-package com.code.hackerrank.datastructure;
+package com.code.hackerrank.datastructure.array;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -20,7 +20,7 @@ import static java.util.stream.Collectors.joining;
  * @author adijain4
  *
  */
-public class P004_Arrays_Dynamic_Array {
+public class P004_Dynamic_Array {
 	
 	public static void main1(String[] args) throws IOException {
 		int N = 2;
