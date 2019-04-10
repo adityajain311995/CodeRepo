@@ -10,8 +10,8 @@ public class P010_Insert_a_node_at_the_head_of_a_linked_list {
 
     static SinglyLinkedListNode insertNodeAtHead(SinglyLinkedListNode llist, int data) {
     	SinglyLinkedListNode node = new SinglyLinkedListNode(data);
-    	
-    	return null;
+    	node.next = llist;
+    	return node;
     }
 	
 }

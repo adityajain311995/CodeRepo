@@ -1,1 +1,2 @@
-1. Difference Array (helpful in reduction fo storage data)
+1. Difference Array (helpful in reduction of storage data)
+2. Floyd's cycle detection algorithm
