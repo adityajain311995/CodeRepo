@@ -5,7 +5,8 @@ import java.util.ArrayList;
 public class Tester {
 
 	public static void main(String[] args) {
-    	System.out.println(5%-2);
+    	String str = "zsfncpxdzl";
+    	System.out.println(str.substring(0,9));
 	}
 
 }
