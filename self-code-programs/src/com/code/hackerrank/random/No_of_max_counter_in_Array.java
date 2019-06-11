@@ -1,4 +1,4 @@
-package com.code.hackerrank;
+package com.code.hackerrank.random;
 
 public class No_of_max_counter_in_Array {
 

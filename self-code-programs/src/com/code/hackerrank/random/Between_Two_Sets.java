@@ -1,4 +1,4 @@
-package com.code.hackerrank;
+package com.code.hackerrank.random;
 
 public class Between_Two_Sets {
 

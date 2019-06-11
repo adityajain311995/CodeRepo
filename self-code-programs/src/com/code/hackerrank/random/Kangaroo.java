@@ -1,4 +1,4 @@
-package com.code.hackerrank;
+package com.code.hackerrank.random;
 
 /**
  * https://www.hackerrank.com/challenges/kangaroo/problem?h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen

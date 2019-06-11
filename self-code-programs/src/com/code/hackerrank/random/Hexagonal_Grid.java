@@ -1,4 +1,4 @@
-package com.code.hackerrank;
+package com.code.hackerrank.random;
 //WRONG
 public class Hexagonal_Grid {
 

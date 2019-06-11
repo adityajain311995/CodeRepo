@@ -1,4 +1,4 @@
-package com.code.hackerrank;
+package com.code.hackerrank.random;
 /**
  * 
  * https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem
