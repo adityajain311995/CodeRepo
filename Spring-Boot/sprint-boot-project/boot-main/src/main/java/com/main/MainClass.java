@@ -3,6 +3,7 @@ package com.main;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.PropertySource;
 
 import com.springboot.HelloWorldRunner;
 
@@ -13,9 +14,9 @@ public class MainClass {
 		SpringApplication.run(MainClass.class, args);
 	}
 
-	@Bean
+	//@Bean
 	public HelloWorldRunner helloBean() {
-		return new HelloWorldRunner("Aditya");
+		return new HelloWorldRunner("Hi", "Aditya");
 	}
 	
 }

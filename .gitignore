@@ -99,3 +99,5 @@ self-code-programs/.metadata/.log
 self-code-programs/.metadata/.lock
 self-code-programs/target/
 *.prefs
+Spring-Boot/sprint-boot-project/hello-service-autoconfigure/target/classes/META-INF/spring-configuration-metadata.json
+*.factorypath
