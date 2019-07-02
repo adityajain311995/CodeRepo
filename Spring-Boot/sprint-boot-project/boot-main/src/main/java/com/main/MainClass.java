@@ -14,7 +14,7 @@ public class MainClass {
 		SpringApplication.run(MainClass.class, args);
 	}
 
-	//@Bean
+	@Bean
 	public HelloWorldRunner helloBean() {
 		return new HelloWorldRunner("Hi", "Aditya");
 	}
