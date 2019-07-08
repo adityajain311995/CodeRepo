@@ -101,3 +101,4 @@ self-code-programs/target/
 *.prefs
 Spring-Boot/sprint-boot-project/hello-service-autoconfigure/target/classes/META-INF/spring-configuration-metadata.json
 *.factorypath
+Microservices-tutorial/limits-service/target/
