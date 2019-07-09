@@ -103,3 +103,4 @@ Spring-Boot/sprint-boot-project/hello-service-autoconfigure/target/classes/META-
 *.factorypath
 Microservices-tutorial/limits-service/target/
 Microservices-tutorial/spring-cloud-config-server/.mvn/
+Microservices-tutorial/currency-exchange-service/.mvn/
