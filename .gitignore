@@ -106,3 +106,5 @@ Microservices-tutorial/spring-cloud-config-server/.mvn/
 Microservices-tutorial/currency-exchange-service/.mvn/
 Microservices-tutorial/currency-conversion-service/.settings/org.eclipse.wst.common.project.facet.core.xml
 Microservices-tutorial/currency-conversion-service/.mvn/
+Microservices-tutorial/netflix-eureka-naming-server/.mvn/
+Microservices-tutorial/netflix-zuul-api-gateway-server/.mvn/

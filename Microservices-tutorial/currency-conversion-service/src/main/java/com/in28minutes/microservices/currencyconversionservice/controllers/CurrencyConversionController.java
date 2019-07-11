@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 import com.in28minutes.microservices.currencyconversionservice.beans.CurrencyConversionBean;
-import com.in28minutes.microservices.currencyconversionservice.clients.CurrencyExchangeServiceClient;
+import com.in28minutes.microservices.currencyconversionservice.feignclients.CurrencyExchangeServiceClient;
 
 @RestController
 public class CurrencyConversionController {
