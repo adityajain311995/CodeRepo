@@ -31,7 +31,7 @@ public class P013_Detect_HTML_Tags {
 		});
 
 		String input = sw.toString();
-		Pattern pattern = Pattern.compile("(?<=</? {0,9})[a-zA-Z0-1]+");
+		Pattern pattern = Pattern.compile("(?<=</? {0,9})[a-zA-Z0-9]+");
 		Matcher matcher = pattern.matcher(input);
 		Set<String> set = new TreeSet<>();
 		while (matcher.find()) {
